@@ -25,9 +25,9 @@ import static java.lang.StrictMath.toIntExact;
 
 public class Bot extends TelegramLongPollingBot {
 
-    public static String url = "jdbc:postgresql://ec2-54-75-230-41.eu-west-1.compute.amazonaws.com:5432/d97176rrg5ibqd";
-    public static String user = "ncveawzpvjrxzv";
-    public static String password = "90830a4a2aacfe1a436156df98cd435dfafe571b03e15ef93b4eae98604c2b8a";
+    public static String url = "python_bot";
+    public static String user = "python_bot";
+    public static String password = "python_bot8a";
 
     public static String hello = EmojiParser.parseToUnicode(":dizzy: Eventor готовий допомогти!");
     String sorry = EmojiParser.parseToUnicode(":cloud: Вибачте, але на даний момент цієї події немає");
@@ -320,7 +320,7 @@ public class Bot extends TelegramLongPollingBot {
 
         public String getBotToken ()
         {
-            return "635921682:AAFUk8LS51wda3JQ02LSN3N3kOVHscGK8-c";
+            return "python_bot";
         }
 
 
